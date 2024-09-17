@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  body {
+    background-color: #1e1f31;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1000px;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #222539;
+  }
+  
+  .header h1 {
+    font-size: 2rem;
+    color: #45f3ff;
+  }
+  
+  .currency-switch button {
+    background-color: #2e324a;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  
+  .buy-btc {
+    background-color: #26a69a;
+  }
+  
+  .price-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .price-change {
+    text-align: center;
+  }
+  
+  .price-change p:first-child {
+    font-size: 1.5rem;
+    color: #84dc85;
+  }
+  
+  .best-price {
+    text-align: center;
+  }
+  
+  .best-price h1 {
+    font-size: 3rem;
+    color: #fff;
+  }
+  
+  .platform-table {
+    margin-top: 20px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 15px;
+    text-align: left;
+  }
+  
+  thead {
+    background-color: #33354a;
+  }
+  
+  tbody tr:nth-child(odd) {
+    background-color: #2e324a;
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: #292d44;
+  }
+  
+  td.negative {
+    color: #ff4d4f;
+  }
+  
+  td.positive {
+    color: #4CAF50;
+  }
+  
+  footer {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  footer .add-to-home {
+    background-color: #55597d;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
